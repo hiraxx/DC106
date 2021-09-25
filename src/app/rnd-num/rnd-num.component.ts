@@ -12,11 +12,12 @@ export class RndNumComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  incNumber = 0;
+  incNumber = +1;
+  decNumber = -1;
+
 
   Increment() {
-this.incNumber = Math.floor((Math.random() * 10) + 1);
-
+this.incNumber = Math.ceil( * 10) + 1); "this.decNumber = Math.floor( * 10) - 1)";
+  
   }
-
 }

@@ -5,18 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './toggle.component.html',
   styleUrls: ['./toggle.component.css']
 })
-export class ToggleComponent implements OnInit {
+export class ToggleComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-  decNumber = 0;
-
-  Decrement() {
-this.decNumber = Math.floor((Math.random() * 10) - 1);
-
-  }
 
 }
